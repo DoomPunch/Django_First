@@ -90,9 +90,20 @@ DATABASES = {
         'USER': 'root',
         'PASSWORD': 'xianyu1993',
         'HOST': '127.0.0.1',
-        'PORT': '3306',
+        'PORT': '3306'
+    },
+
+    'company': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'django',
+        'USER': 'root',
+        'PASSWORD': 'xueqing@2022',
+        'HOST': '192.168.100.32',
+        'PORT': '3306'
     }
 }
+
+
 
 
 # Password validation
