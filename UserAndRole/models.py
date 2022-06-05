@@ -6,6 +6,7 @@ from django.utils import timezone
 
 __all__ = ['User', 'Role', 'Menu', 'RoleForUser', 'RoleForMenu']
 
+
 class User(models.Model):
     login_name = models.CharField(max_length=50, db_column='LoginName', null=True, blank=True, help_text='登录账号')
     login_pwd = models.CharField(max_length=50, db_column='Login_pwd', null=True, blank=True, help_text='登录密码')
